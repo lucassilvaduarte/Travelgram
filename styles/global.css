@@ -1,7 +1,8 @@
 *{
   margin:0;
   padding: 0;
-  box-sizing: border-box;  
+  box-sizing: border-box; 
+  font-family: "Poppins", sans-serif; 
 }
 
 :rrot{
@@ -12,9 +13,17 @@
     --shape_transparency:#FFFFFF8F;
     --text-color-primary:#313131;
     --text-color-secondary:#6c6c6c;
+
 }
 
-bodt{
+body{
     color: var(--text-color-primary);
     background-color: var(--backgroud-color);
 }
+
+.text-lg {
+    color: var(--text-color-primary);
+    font-size: 32px;
+    font-weight: bold;
+}
+
