@@ -5,7 +5,7 @@
   font-family: "Poppins", sans-serif; 
 }
 
-:rrot{
+:root{
     --brand-color:#ef5f4c;
     --backgroud-color:#FFFFFF;
     --surface_color:#f5f5f5;
@@ -32,7 +32,7 @@ a {
   color: inherit;
 }
 
-a :hover{
+a:hover{
     color: var(--brand-color);
     text-decoration: underline;
 }
