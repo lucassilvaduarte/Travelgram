@@ -5,11 +5,13 @@ header {
 header .container {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+ 
 }
 #profile { 
+    width:  100%;
     display: flex;
     gap: 32px;
+    align-items: center;
 }
 
 #profile > div {
@@ -26,6 +28,7 @@ header .container {
     flex-direction: column;
     gap: 16px;
     width: 280px;
+    margin-left: auto;
 }
 
 #info li {
